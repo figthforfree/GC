@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>格畅通信 - 解决方案</title>
+<link href="css/page.css" rel="stylesheet"/>
+<script src="js/jquery-1.8.0.min.js"></script>
+<script src="js/gotoTop.js"></script>
+<script type="text/javascript">
+	function tabClick(){
+			if($(this).hasClass('activeTab')) 
+				return;
+			$('.bookmark ul li').removeClass('activeTab');
+			$(this).addClass('activeTab');
+			var tabId = $(this).attr('tabId');
+			$('#note > div').hide();
+			$('#' + tabId).show();
+	}
+	$(document).ready(function(){
+			$('.bookmark ul li').click(tabClick);
+	})
+</script>
+<script type="text/javascript">
+	$(function(){
+		$(".backToTop").goToTop();
+		$(window).bind('scroll resize',function(){
+			$(".backToTop").goToTop({
+				pageWidth:1050,
+				duration:0
+			});
+		});
+	});
+</script>
+</head>
+
+<body>
+	<div id="logo_big"><img src="images/logo_big.png"></div>
+    <div id="menu">
+    	<ul><li class="index"><a href="index.html">首&nbsp;&nbsp;页</a></li>
+        	<li class="else"><a href="about.html">&nbsp;关于格畅&nbsp;</a></li>
+            <li class="chosen"><a href="solution.html">&nbsp;解决方案&nbsp;</a></li>
+            <li class="else"><a href="cooperation.html">&nbsp;渠道合作&nbsp;</a></li>
+            <li class="else"><a href="support.html">&nbsp;技术支持&nbsp;</a></li>
+            <li class="else"><a href="partners.html">&nbsp;战略伙伴&nbsp;</a></li>
+            <li class="else"><a href="contact.html">&nbsp;联系我们&nbsp;</a></li></ul>
+    </div>
+    <div id="banner">
+    	<div id="pic_left"><img src="images/banner_2.jpg"></div>
+        <div id="pic_right"><img src="images/solution.png"></div>
+    </div>
+    <div id="main_float">
+    	<div class="bookmark">
+        	<ul><li tabId="tab1" class="activeTab"><div class="bm">电话营销型应用方案</div></li>
+            	<li tabId="tab2"><div class="bm">售后服务型应用方案</div></li>
+                <li tabId="tab3"><div class="bm">办公座席一体化方案</div></li>
+                <li tabId="tab4"><div class="bm">电子商务行业应用方案</div></li>
+                <li tabId="tab5"><div class="bm">教育培训行业应用方案</div></li>
+                <li tabId="tab6"><div class="bm">贵金属投资行业方案</div></li>
+                <li tabId="tab7"><div class="bm">物业服务行业应用方案</div></li></ul>
+        </div>
+        <div id="shadow_rotate"><img src="images/shadow_rotate.png"></div>
+        <div id="note">
+        	<div id="tab1" style="display: block">
+                <p class="subhead">方案概述</p>
+                <p id="para">在销售市场激烈竞争的今天，企业都开始使用电话作为销售手段的一个工具，我们称之为"电话营销"。电话营销服务就是为企业建立一个互动营销中心，将售前、售中、售后各个环节整合在一起，和客户进行一对一的行销方式。为客户提供诸如产品咨询、订单受理、发货查询，投诉满意度回访等各类服务。格畅呼叫中心CRM一体化营销型解决方案采用先进的IPPBX技术，将人工电话营销电脑化管理，通过统一的客服号码呼出和呼入，统一的用户服务界面，统一的热线功能和统一的服务标准，集中受理客户的业务咨询或订单需求，为客户提供先进的营销服务的窗口。</p>
+                <p class="subhead">应用行业</p>
+                <p id="para"><span id="space">• 电子商务行业</span><span id="space">• 教育培训行业</span><span id="space">• 保健品行业</span><span id="space">• 文化礼品行业</span><span id="space">• 金融理财行业</span><span id="space">• 留学移民行业</span><span id="space">• 广告媒体行业</span><span id="space">• 消费产品行业</span></p>
+                <p class="subhead"><span id="space_title">功能介绍</span></p>
+                <p id="para"><span id="space">• IVR自动语音流程功能</span><span id="space">• 自动话务分配ACD功能</span><span id="space">• 队列管理功能</span><span id="space">• 坐席功能</span><span id="space">• 来电弹屏功能</span><span id="space">• 录音功能</span><span id="space">• 服务请求受理功能</span><span id="space">• 线下服务派工功能</span><span id="space">• 服务回访功能</span><span id="space">• 知识库功能</span></p>
+                <p id="s1"><img src="images/solution_1.png"></p>
+            </div>
+            <div id="tab2" style="display: none">
+                <p class="subhead">方案概述</p>
+                <p id="para">在市场竞争日渐激烈的形势下，企业的售后服务水平也成为竞争的标准之一，因此也越来越受到重视。格畅通信强大的服务管理模块，为企业提供了有力的支持。
+格畅通信售后服务方案包括客户资产管理、服务合约管理、座席服务、服务请求、服务派工、客户回访、产品缺陷管理、知识库管理、服务人员管理、收费管理等模块。</p>
+				<p id="para">格畅通信售后服务方案包括客户资产管理、服务合约管理、座席服务、服务请求、服务派工、客户回访、产品缺陷管理、知识库管理、服务人员管理、收费管理等模块。</p>
+                <p id="para">通过格畅通信的呼叫中心平台，能帮助企业实现如下管理思想：整合服务团、提升服务响应速度、塑造企业形象、提高客户满意度、服务创造价值。</p>
+                <p class="subhead">应用行业</p>
+                <p id="para"><span id="space">• 工程机械行业</span><span id="space">• 医疗器械行业</span><span id="space">• 教育培训行业</span><span id="space">• 游戏娱乐行业</span><span id="space">• 家政服务行业</span><span id="space">• 酒店服务行业</span><span id="space">• 汽车4S店行业</span><span id="space">• 消费产品行业</span></p>
+                <p class="subhead"><span id="space_title">功能介绍</span></p>
+                <p id="para"><span id="space">• IVR自动语音流程功能</span><span id="space">• 自动话务分配ACD功能</span><span id="space">• 队列管理功能</span><span id="space">• 坐席功能</span><span id="space">• 录音功能</span><span id="space">• 服务请求受理功能</span><span id="space">• 线下服务派工功能</span><span id="space">• 服务回访功能</span><span id="space">• 知识库功能</span></p>
+                <p id="s1"><img src="images/solution_1.png"></p>
+            </div>
+            <div id="tab3" style="display: none">
+                <p class="subhead">方案概述</p>
+                <p id="para">在绝大多数公司里，无论是用于建设售后服务电话还是电话营销模式，呼叫中心在公司中都是做为独立的通讯系统存在，呼叫中心的座席员工与其他部门员工之间的电话沟通被不同的电话系统隔离开来。在协同办公已日趋重要的当下，这样部署的弊端已日趋明显。</p>
+				<p id="para">格畅通信集合平台的优势，推出性价比极高的办公座席一体化解决方案。依托这个整合平台，可以使呼叫中心的应用不仅服务于企业售后服务团队，或者电话营销团队，企业其他部门比如：商务团队、其他业务支持团队也都可以享受到来电弹跳，通话录音等呼叫中心的功能来提升工作效率。对于管理者来说，还可以对公司的所有电话都可以进行专业的呼叫管理和统计分析。</p>
+                <p class="subhead">方案特点</p>
+                <p id="para">企业可以对外公布公司总机号码，也可以针对不同的业务需求公布销售热线或者服务热线。根据客户拨打的号码不同，系统的IVR，ACD会按照预先设置好的路由进行电话分配和处理。</p>
+                <p id="para">企业的销售部门可以通过系统来电弹跳客户资料方便的为客户提供售前咨询，通过系统点击外呼提高销售效率；售后服务部门可以为客户提供完美的客户服务流程。同时在企业所有部门之间，电话可以互转，统一监控，统一IVR，统一录音，统一管理。此套解决方案，在设计中重点考虑整合支撑企业与客户的全方位沟通和联系（销售、合同执行、商务沟通、售后服务等），并能针对企业的不同特点（比如是否有多个分支机构、直营or加盟等）采用集中座席或集中与分布座席相结合等不同的方式，使得呼叫中心能够贴身地成为企业与客户沟通的统一的服务窗口，帮助企业创造全面通畅的客户沟通体验。</p>
+                <p class="subhead"><span id="space_title">功能介绍</span></p>
+                <p id="s1"><img src="images/solution_3.png"></p>
+            </div>
+            <div id="tab4" style="display: none">
+                <p class="subhead">方案概述</p>
+                <p id="para">这几年来，我国的电子商务市场迅猛发展，短短几年内就产生了“携程、PPG、凡客”等一大批依靠电子商务实现腾飞的企业。 开展电子商务，有别于一般传统的商业活动，在大多数情况下，客户和企业是见不着面的，所以需要建立一个畅通的，与用户交流的双向通道，能够了解客户需求，倾听客户意见，解决客户问题，宣传企业的产品和服务。网络与电话相结合就弥补了电话和网络的不足，电话中只有语言沟通，而网络有实物照片、讨论等，听觉与视觉相结合开辟营销领域的新模式。所以电子商务将来发展的道路一定是与呼叫中心相结合。 格畅通信云呼系统根据多年行业应用及研究，针对电子商务行业特点，推出云呼电子商务行业方案。</p>
+                <p class="subhead">方案特点</p>
+                <p id="para">• 集合云呼呼叫中心与CRM业务一体化的优势，整套系统性价比极高。并且具备强大的扩容能力，满足业务发展需求；</p>
+                <p id="para">• 统一的服务窗口：通过电话渠道可以为客户提供统一的服务，实现一站式的服务与支持，真正加强了销售管理，实现订购电话唯一、订单处理统一；</p>
+                <p id="para">• 强大的呼叫中心应用：智能语音导航服务、提高了服务质量；电话接入后可以根据客户级别分配到不同技能座席，提高了客户服务的工作效率；系统提供的主动营销系统的电话回呼功能，保证了系统在高峰时段不会丢失客户来电，并且大大提高了系统话务和业务处理能力，同时可实现主动向客户推销产品，生成订单；</p>
+                <p id="para">• 完善的业务整合功能（CRM）：格畅通信系统涵盖了客户管理、销售管理（销售机会、销售报价、销售订单、收款记录、发货记录）、服务管理（服务请求、服务派工、服务回访）、进销存管理，可以实现前后台的数据统一共享，从而保障公司资金流、物流、信息流的统一。</p>
+                <p class="subhead"><span id="space_title">功能介绍</span></p>
+                <p id="para"><span id="space">• IVR自动语音流程功能</span><span id="space">• 自动话务分配ACD功能</span><span id="space">• 坐席功能</span><span id="space">• 队列管理功能</span><span id="space">• 客户管理功能</span><span id="space">• 销售管理功能</span><span id="space">• 进销存管理功能</span><span id="space">• 知识库功能</span><span id="space">• 来电弹屏功能</span><span id="space">• 录音功能</span><span id="space">• CDR通话记录和统计报告功能</span></p>
+            </div>
+            <div id="tab5" style="display: none">
+                <p class="subhead">方案概述</p>
+                <p id="para">教育培训行业竞争激烈，开展教育培训的企业前期往往投入大量的市场推广资金，提高知名度。所以，咨询服务能力直接影响学员是否选择相应的培训课程，另外现有学员也需要查询课程安排、课程试听、预约报名等需求。贯穿整个客户全生命周期的体验至关重要。</p>
+                <p id="para">构建一个专业的客户服务呼叫中心平台，利用现代信息网络和技术，为学员提供充分、快捷、丰富的信息查询服务，体现与同行业其他培训机构的差异化服务特征，提高客户满意度，进而提升客户对企业品牌的认知度和忠诚度,是当前教育培训机构急需突围的瓶颈。</p>
+                <p class="subhead"><span id="space_title">功能介绍</span></p>
+                <p id="para"><span id="space">• 智能IVR和ACD</span><span id="space">• 客户销售跟踪（CRM）</span><span id="space">• 客户服务管理（CRM）</span><span id="space">• 主动营销（主动外呼）</span><span id="space">• 录音功能</span><span id="space">• CDR通话记录和统计报告</span></p>
+            </div>
+            <div id="tab6" style="display: none">
+                <p class="subhead">方案概述</p>
+                <p id="para">随着中国国民经济快速的发展和人民生活水平的提高，居民对贵金属实物产品和投资性贵金属的需求稳步增长。另一方面，在近几年通胀难以避免的大背景下，投资贵金属逐步成为民众保值的一项措施。近年来，黄金白银等贵金属投资每年都以50%以上的速度增长；国内已经迎来贵金属投资新一轮的热潮。在如此利好行业消息背景下，贵金属投资公司的业务正在蓬勃开展。</p>
+                <p id="para">格畅通信作为国内呼叫中心CRM一体化系统领先供应商，早已对金融产品投资领域的客户管理与呼叫外呼方案深有研究，而且我们也现了如下问题：</p>
+                <p id="para">• 电话营销电话效率低：</p>
+                <p id="em">大部分仍然采用传统的手动拨号，效率低下，更无法及时录入和管理联系记录。</p>
+                <p id="para">• 业务过程管理困难：</p>
+                <p id="em">从客户线索推动到意向客户，模拟帐号，到正式开户。整个过程缺乏清晰可视的管理监督，无法及时对症下药，推动业务过程健康发展。</p>
+                <p id="para">• 线索资源如何进行充分利用：</p>
+                <p id="em">对于开发不下来的客户信息座席往往丢而弃之，不能很好的形成内部数据交换开发，以充分利用现有数据资源。</p>
+                <p id="para">• 众多分公司管理存在管理误区：</p>
+                <p id="em">在管理多个分支机构上，很多企业管理存在信息的滞后性，往往出现的问题是头疼医疼，脚疼医脚。或者是疲于奔波在各个地区或各种内部会议上。这对于管理方法上的变革提出了新的效率要求。</p>
+                <p id="para">对症下药，格畅通信实时推出了专属贵金属投资行业的呼叫中心CRM一体化方案，充分有效的解决以上管理难题。</p>
+                <p class="subhead"><span id="space_title">方案功能</span></p>
+                <p id="s2"><img src="images/solution_6.png"></p>
+            </div>
+            <div id="tab7" style="display: none">
+                <p class="subhead">方案概述</p>
+                <p id="para">随着房地产业蓬勃发展，随之而来的带动了物业服务的飞速发展，业主在选择住房的同时，也更多的考虑物业服务，追求更加细致、周到、及时、完善的物业服务。呼叫中心已成为物业为业主提供服务的最有效窗口。通过呼叫中心客户服务平台引入业主服务的管理方式，并结合物业服务的实际情况，提出全新的物业服务理念。</p>
+                <p id="para">针对物业管理的特殊性，整体呼叫中心客户服务平台应包括两块具体应用：呼叫中心和CRM客户服务业务系统。两者在技术上看似独立，CRM是客户服务管理系统，呼叫中心是通信系统，而在实践应用中，却缺一不可。实际应用中，二者只有集成在一起才能为企业带来根本性的客户服务水平和质量的转变。</p>
+                <p id="para">格畅通信所提供的一体化平台，完整整合了CRM和Call Center，针对物业行业提供了一套全新的客户服务平台：</p>
+                <p id="para">• 统一的服务入口：</p>
+                <p id="em">实施整套平台后，物业行业的物业服务范围将不仅局限于一般包括房屋、水、电、煤气等维修及费用的缴纳等等；还将包括社区医疗、家政服务、咨询、维修、投诉、甚至是购物等等。如果按照传统的服务方式，这些都需要业主与物业服务人员面对面交流，并且每一项内容都需要专门的服务人员来受理。格畅通信呼叫中心客户服务平台的建设则完全解决了这些问题，统一的服务号码、统一的座席受理人员是其最显着的特点，业主对于任何服务请求，只需要通过服务号码提交给座席人员即可，后续再由座席人员将工作分配给相关的服务人员，面向业主的只有这个呼叫中心平台的服务号码，所有的服务入口都统一在这个号码上，使物业行业的业主服务更加规范。</p>
+                <p id="para">• 统一的服务流程：</p>
+                <p id="em">当业主通过呼叫中心平台提交服务请求后，会对应形成电子工作记录单，并由座席转交给相应的服务人员；服务人员根据工单的要求向业主提供服务，并记录工作情况，然后反馈给座席人员；座席人员根据工作单通过呼叫中心平台向业主进行服务回访，至此，形成一个闭环的工作流程。物业管理人员也可以通过该平台对服务情况进行监督，并对延误的工作进行催促、督办。</p>
+                <p id="para">• 全新的服务体验：</p>
+                <p id="em">当业主通过格畅通信呼叫中心客户服务平台寻求服务时，座席人员会立即知道业主的姓名、楼牌房号以及服务历史记录等等，这样大大缩短了服务时间，也提高了工作效率；同时，更为重要的是，业主通过这种专业的服务体验到了尊重和重视，其服务所达到的效果自然不言而喻。</p>
+                <p id="para">• 创造增值服务：</p>
+                <p id="em">为了向业主提供更加完善的服务，也可以通过格畅通信呼叫中心客户服务平台提供更多增值服务，例如：小区商户产品订购等，各种与业主生活、工作、学习有关的服务或产品都可以通过呼叫中心平台来支撑运作。带给业主的是更加便利、细致的服务；而带给物业管理者的不仅仅是好评与满意度，还有增值服务所创造的利润。</p>
+                <p class="subhead"><span id="space_title">功能介绍</span></p>
+                <p id="para"><span id="space">• IVR自动语音流程功能</span><span id="space">• 自动话务分配ACD功能</span><span id="space">• 队列管理功能</span><span id="space">• 来电弹屏功能</span><span id="space">• 录音功能</span><span id="space">• CDR通话记录和统计报告</span><span id="space">• 业务信息管理</span><span id="space">• 服务投诉单</span><span id="space">• 服务派工单</span><span id="space">• 服务回访</span><span id="space">• 知识库</span></p>
+            </div>
+        </div>
+        <div id="shadow_short"><img src="images/shadow.png"></div>
+    </div>
+    <div id="footer">
+    	<div id="logo"><img src="images/logo.png"></div>
+        <div id="service" class="bold">
+        	<ul><li><a target=blank href="tencent://message/?uin=252700589&Site=qq&Menu=yes" style="text-decoration:none"><img id="qq" src="images/qq.png">&nbsp;&nbsp;技术顾问 曾先生</a></li>
+            	<li><a target=blank href="tencent://message/?uin=252700589&Site=qq&Menu=yes" style="text-decoration:none"><img id="qq" src="images/qq.png">&nbsp;&nbsp;商务咨询 钟先生</a></li>
+                <li><a target=blank href="tencent://message/?uin=252700589&Site=qq&Menu=yes" style="text-decoration:none"><img id="qq" src="images/qq.png">&nbsp;&nbsp;商务咨询 刘先生</a></li></ul>
+        </div>
+        <div id="end">
+        	<div id="line"></div>
+        	<div id="add" class="bold">地址：深圳市龙岗区南湾街道布沙路78号樟树布综合大楼七楼701</div>
+            <div id="copyright" class="bold">©2011-2014 GECHANG ® 格畅</div>
+        </div>
+    </div>
+    <a title="返回顶部" class="backToTop" style="left: 1200px; top: 513px; display: none; position: fixed;" href="javascript:;">返回顶部</a>
+</body>
+</html>

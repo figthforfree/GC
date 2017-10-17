@@ -1,0 +1,744 @@
+/*This is css files*/
+body {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#main img {
+	border: 0;
+}
+#banner img {
+	max-width: 100%;
+    width: 100%;
+}
+#logo {
+	width: 240px;
+	height: 72px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+#service ul li {
+	list-style-type: none;
+	display: inline;
+	margin-left: 20px;
+	text-align: center;
+}
+#service a:link, #service a:visited {
+	color: #353535;
+}
+#qq {
+	width: 15px;
+	border: 0;
+}
+.bold {
+	font-weight: 500;
+	font-family: "微软雅黑";
+	color: #353535;
+}
+/*for ie8 and below*/
+#main {
+	max-width: 100%;
+	width: 100%;
+	margin-top: 50px;
+	height: 570px;
+}
+#container {
+	width: 1050px;
+	height: auto;
+	margin: 0 auto 0 auto;
+}
+#cup {
+	width: 1050px;
+	float: left;
+}
+#cdown {
+	width: 1050px;
+	margin-top: 15px;
+	float: left;
+}
+#c1 img {
+	max-width: 36.3%;
+	float: left;
+}
+#c2 img {
+	max-width: 24.1%;
+	float: left;
+	margin-left: 15px;
+}
+#c3 img {
+	max-width: 36.3%;
+	float: left;
+	margin-left: 15px;
+}
+#c4 img {
+	max-width: 32.2%;
+	float: left;
+}
+#c5 img {
+	max-width: 32.2%;
+	float: left;
+	margin-left: 15px;
+}
+#c6 img {
+	max-width: 32.2%;
+	float: left;
+	margin-left: 15px;
+}
+#footer {
+	height: 300px;
+	margin-top: 50px auto 0 auto;
+	background-color: #e5e5e5;
+}
+#logo img {
+	max-width: 60%;
+	margin-top: 50px;
+}
+#service {
+	width: auto;
+	margin: 50px auto 0 auto;
+	font-size: 16px;
+	text-align: center;
+}
+#end {
+	width: 1050px;
+	margin: 0 auto 0 auto;
+	font-size: 16px;
+}
+#line {
+	width: 1050px;
+	height: 2px;
+	background: #555;
+	margin-top: 50px;
+}
+#add {
+	float: left;
+	margin-top: 20px;
+}
+#copyright {
+	float: right;
+	margin-top: 20px;
+}
+/*styles for 300px and up @ 16px!*/
+/* The max-width declaration below blocks this from ever working */
+@media only screen and (min-width: 12em){
+
+#main {
+	max-width: 100%;
+	width: 100%;
+	margin-top: 30px;
+	height: 240px;
+}
+#container {
+	width: 480px;
+	height: auto;
+	margin: 0 auto 0 auto;
+}
+#cup {
+	width: 480px;
+	float: left;
+}
+#cdown {
+	width: 480px;
+	margin-top: 10px;
+	float: left;
+}
+#c1 img {
+	max-width: 36%;
+	float: left;
+}
+#c2 img {
+	max-width: 23.8%;
+	float: left;
+	margin-left: 10px;
+}
+#c3 img {
+	max-width: 36%;
+	float: left;
+	margin-left: 10px;
+}
+#c4 img {
+	max-width: 31.9%;
+	float: left;
+}
+#c5 img {
+	max-width: 31.9%;
+	float: left;
+	margin-left: 10px;
+}
+#c6 img {
+	max-width: 31.9%;
+	float: left;
+	margin-left: 10px;
+}
+#logo img {
+	max-width: 40%;
+	margin-top: 20px;
+}
+#footer {
+	height: 180px;
+	margin-top: 30px;
+	background-color: #e5e5e5;
+}
+#service {
+	width: auto;
+	margin: 0 auto 0 auto;
+	font-size: 10px;
+	text-align: center;
+}
+#end {
+	width: 480px;
+	margin: 0 auto 0 auto;
+	font-size: 10px;
+}
+#line {
+	width: 480px;
+	height: 2px;
+	background: #555;
+	margin-top: 20px;
+}
+#add {
+	float: left;
+	margin-top: 5px;
+}
+#copyright {
+	float: right;
+	margin-top: 5px;
+}
+}
+
+/*styles for 480px - 620px @ 16px!*/
+@media only screen and (min-width: 30em) and (max-width: 38.75em) {
+
+#main {
+	max-width: 100%;
+	width: 100%;
+	margin-top: 30px;
+	height: 240px;
+}
+#container {
+	width: 480px;
+	height: auto;
+	margin: 0 auto 0 auto;
+}
+#cup {
+	width: 480px;
+	float: left;
+}
+#cdown {
+	width: 480px;
+	margin-top: 10px;
+	float: left;
+}
+#c1 img {
+	max-width: 36%;
+	float: left;
+}
+#c2 img {
+	max-width: 23.8%;
+	float: left;
+	margin-left: 10px;
+}
+#c3 img {
+	max-width: 36%;
+	float: left;
+	margin-left: 10px;
+}
+#c4 img {
+	max-width: 31.9%;
+	float: left;
+}
+#c5 img {
+	max-width: 31.9%;
+	float: left;
+	margin-left: 10px;
+}
+#c6 img {
+	max-width: 31.9%;
+	float: left;
+	margin-left: 10px;
+}
+#logo img {
+	max-width: 40%;
+	margin-top: 20px;
+}
+#footer {
+	height: 180px;
+	margin-top: 30px;
+	background-color: #e5e5e5;
+}
+#service {
+	width: auto;
+	margin: 0 auto 0 auto;
+	font-size: 10px;
+	text-align: center;
+}
+#end {
+	width: 480px;
+	margin: 0 auto 0 auto;
+	font-size: 10px;
+}
+#line {
+	width: 480px;
+	height: 2px;
+	background: #555;
+	margin-top: 20px;
+}
+#add {
+	float: left;
+	margin-top: 5px;
+}
+#copyright {
+	float: right;
+	margin-top: 5px;
+}
+}
+
+@media screen and (min-width: 38.75em),only print,projector{
+
+#main {
+	max-width: 100%;
+	width: 100%;
+	margin-top: 30px;
+	height: 300px;
+}
+#container {
+	width: 600px;
+	height: auto;
+	margin: 0 auto 0 auto;
+}
+#cup {
+	width: 600px;
+	float: left;
+}
+#cdown {
+	width: 600px;
+	margin-top: 10px;
+	float: left;
+}
+#c1 img {
+	max-width: 36%;
+	float: left;
+}
+#c2 img {
+	max-width: 23.8%;
+	float: left;
+	margin-left: 10px;
+}
+#c3 img {
+	max-width: 36%;
+	float: left;
+	margin-left: 10px;
+}
+#c4 img {
+	max-width: 31.9%;
+	float: left;
+}
+#c5 img {
+	max-width: 31.9%;
+	float: left;
+	margin-left: 10px;
+}
+#c6 img {
+	max-width: 31.9%;
+	float: left;
+	margin-left: 10px;
+}
+#logo img {
+	max-width: 40%;
+	margin-top: 35px;
+}
+#footer {
+	height: 200px;
+	margin-top: 30px;
+	background-color: #e5e5e5;
+}
+#service {
+	width: auto;
+	margin: 20px auto 0 auto;
+	font-size: 12px;
+	text-align: center;
+}
+#end {
+	width: 600px;
+	margin: 0 auto 0 auto;
+	font-size: 12px;
+}
+#line {
+	width: 600px;
+	height: 2px;
+	background: #555;
+	margin-top: 30px;
+}
+#add {
+	float: left;
+	margin-top: 10px;
+}
+#copyright {
+	float: right;
+	margin-top: 10px;
+}
+}
+
+/*styles for 800px and up @ 16px!*/
+@media screen and (min-width: 50em){
+
+#main {
+	max-width: 100%;
+	width: 100%;
+	margin-top: 50px;
+	height: 400px;
+}
+#container {
+	width: 800px;
+	height: auto;
+	margin: 0 auto 0 auto;
+}
+#cup {
+	width: 800px;
+	float: left;
+}
+#cdown {
+	width: 800px;
+	margin-top: 15px;
+	float: left;
+}
+#c1 img {
+	max-width: 36%;
+	float: left;
+}
+#c2 img {
+	max-width: 23.8%;
+	float: left;
+	margin-left: 15px;
+}
+#c3 img {
+	max-width: 36%;
+	float: left;
+	margin-left: 15px;
+}
+#c4 img {
+	max-width: 31.9%;
+	float: left;
+}
+#c5 img {
+	max-width: 31.9%;
+	float: left;
+	margin-left: 15px;
+}
+#c6 img {
+	max-width: 31.9%;
+	float: left;
+	margin-left: 15px;
+}
+#logo img {
+	max-width: 50%;
+	margin-top: 40px;
+}
+#footer {
+	height: 230px;
+	margin-top: 50px;
+	background-color: #e5e5e5;
+}
+#service {
+	width: auto;
+	margin: 40px auto 0 auto;
+	font-size: 14px;
+	text-align: center;
+}
+#end {
+	width: 800px;
+	margin: 0 auto 0 auto;
+	font-size: 14px;
+}
+#line {
+	width: 800px;
+	height: 2px;
+	background: #555;
+	margin-top: 30px;
+}
+#add {
+	float: left;
+	margin-top: 10px;
+}
+#copyright {
+	float: right;
+	margin-top: 10px;
+}
+}
+
+/*styles for 1100px and up @ 16px!*/
+@media screen and (min-width: 68.75em){
+
+#main {
+	max-width: 100%;
+	width: 100%;
+	margin-top: 50px;
+	height: 440px;
+}
+#container {
+	width: 900px;
+	height: auto;
+	margin: 0 auto 0 auto;
+}
+#cup {
+	width: 900px;
+	float: left;
+}
+#cdown {
+	width: 900px;
+	margin-top: 15px;
+	float: left;
+}
+#c1 img {
+	max-width: 36%;
+	float: left;
+}
+#c2 img {
+	max-width: 23.8%;
+	float: left;
+	margin-left: 15px;
+}
+#c3 img {
+	max-width: 36%;
+	float: left;
+	margin-left: 15px;
+}
+#c4 img {
+	max-width: 31.9%;
+	float: left;
+}
+#c5 img {
+	max-width: 31.9%;
+	float: left;
+	margin-left: 15px;
+}
+#c6 img {
+	max-width: 31.9%;
+	float: left;
+	margin-left: 15px;
+}
+#logo img {
+	max-width: 55%;
+	margin-top: 50px;
+}
+#footer {
+	height: 250px;
+	margin-top: 50px;
+	background-color: #e5e5e5;
+}
+#service {
+	width: auto;
+	margin: 50px auto 0 auto;
+	font-size: 16px;
+	text-align: center;
+}
+#end {
+	width: 900px;
+	margin: 0 auto 0 auto;
+	font-size: 15px;
+}
+#line {
+	width: 900px;
+	height: 2px;
+	background: #555;
+	margin-top: 30px;
+}
+#add {
+	float: left;
+	margin-top: 15px;
+}
+#copyright {
+	float: right;
+	margin-top: 15px;
+}
+}
+
+/*one with pixels too! */
+/* NOTE - if the user were to increase his browser font size to 20px (chrome: Large), 
+			the above (68.75em) media query will be incorrectly ignored!!!
+*/
+@media screen and (min-width: 1200px){
+
+#main {
+	max-width: 100%;
+	width: 100%;
+	margin-top: 50px;
+	height: 520px;
+}
+#container {
+	width: 1050px;
+	height: auto;
+	margin: 0 auto 0 auto;
+}
+#cup {
+	width: 1050px;
+	float: left;
+}
+#cdown {
+	width: 1050px;
+	margin-top: 15px;
+	float: left;
+}
+#c1 img {
+	max-width: 36.3%;
+	float: left;
+}
+#c2 img {
+	max-width: 24.1%;
+	float: left;
+	margin-left: 15px;
+}
+#c3 img {
+	max-width: 36.3%;
+	float: left;
+	margin-left: 15px;
+}
+#c4 img {
+	max-width: 32.2%;
+	float: left;
+}
+#c5 img {
+	max-width: 32.2%;
+	float: left;
+	margin-left: 15px;
+}
+#c6 img {
+	max-width: 32.2%;
+	float: left;
+	margin-left: 15px;
+}
+#footer {
+	height: 300px;
+	margin-top: 50px auto 0 auto;
+	background-color: #e5e5e5;
+}
+#logo img {
+	max-width: 60%;
+	margin-top: 50px;
+}
+#service {
+	width: auto;
+	margin: 50px auto 0 auto;
+	font-size: 16px;
+	text-align: center;
+}
+#end {
+	width: 1050px;
+	margin: 0 auto 0 auto;
+	font-size: 16px;
+}
+#line {
+	width: 1050px;
+	height: 2px;
+	background: #555;
+	margin-top: 50px;
+}
+#add {
+	float: left;
+	margin-top: 20px;
+}
+#copyright {
+	float: right;
+	margin-top: 20px;
+}
+}
+
+@media only screen and (min-width: 1250px) and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (min-width: 1250px) and (-moz-min-device-pixel-ratio: 1.5),
+	only screen and (min-width: 1250px) and (-o-min-device-pixel-ratio: 3/2),
+	only screen and (min-width: 1250px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-width: 1250px) and (min-device-pixel-ratio: 1.5),
+	only screen and (min-width: 1250px) and (min-resolution: 1.5dppx),
+	screen and (min-width: 1250px) {
+
+
+
+}
+
+@media screen and (min-width: 1600px){
+
+#main {
+	max-width: 100%;
+	width: 100%;
+	margin-top: 100px;
+	height: 600px;
+}
+#container {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto 0 auto;
+}
+#cup {
+	width: 1200px;
+	float: left;
+}
+#cdown {
+	width: 1200px;
+	margin-top: 15px;
+	float: left;
+}
+#c1 img {
+	max-width: 36.6%;
+	float: left;
+}
+#c2 img {
+	max-width: 24.3%;
+	float: left;
+	margin-left: 15px;
+}
+#c3 img {
+	max-width: 36.6%;
+	float: left;
+	margin-left: 15px;
+}
+#c4 img {
+	max-width: 32.5%;
+	float: left;
+}
+#c5 img {
+	max-width: 32.5%;
+	float: left;
+	margin-left: 15px;
+}
+#c6 img {
+	max-width: 32.5%;
+	float: left;
+	margin-left: 15px;
+}
+#logo img {
+	max-width: 60%;
+	margin-top: 50px;
+}
+#footer {
+	height: 300px;
+	margin-top: 100px;
+	background-color: #e5e5e5;
+}
+#service {
+	width: auto;
+	margin: 50px auto 0 auto;
+	font-size: 16px;
+	text-align: center;
+}
+#end {
+	width: 1200px;
+	margin: 0 auto 0 auto;
+	font-size: 16px;
+}
+#line {
+	width: 1200px;
+	height: 2px;
+	background: #555;
+	margin-top: 50px;
+}
+#add {
+	float: left;
+	margin-top: 20px;
+}
+#copyright {
+	float: right;
+	margin-top: 20px;
+}
+}

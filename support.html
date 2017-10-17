@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>格畅通信 - 技术支持</title>
+<link href="css/page.css" rel="stylesheet"/>
+<script src="js/jquery-1.8.0.min.js"></script>
+<script src="js/gotoTop.js"></script>
+<script type="text/javascript">
+	function tabClick(){
+			if($(this).hasClass('activeTab')) 
+				return;
+			$('.bookmark ul li').removeClass('activeTab');
+			$(this).addClass('activeTab');
+			var tabId = $(this).attr('tabId');
+			$('#note > div').hide();
+			$('#' + tabId).show();
+	}
+	$(document).ready(function(){
+			$('.bookmark ul li').click(tabClick);
+	})
+</script>
+<script type="text/javascript">
+	$(function(){
+		$(".backToTop").goToTop();
+		$(window).bind('scroll resize',function(){
+			$(".backToTop").goToTop({
+				pageWidth:1050,
+				duration:0
+			});
+		});
+	});
+</script>
+</head>
+
+<body>
+	<div id="logo_big"><img src="images/logo_big.png"></div>
+    <div id="menu">
+    	<ul><li class="index"><a href="index.html">首&nbsp;&nbsp;页</a></li>
+        	<li class="else"><a href="about.html">&nbsp;关于格畅&nbsp;</a></li>
+            <li class="else"><a href="solution.html">&nbsp;解决方案&nbsp;</a></li>
+            <li class="else"><a href="cooperation.html">&nbsp;渠道合作&nbsp;</a></li>
+            <li class="chosen"><a href="support.html">&nbsp;技术支持&nbsp;</a></li>
+            <li class="else"><a href="partners.html">&nbsp;战略伙伴&nbsp;</a></li>
+            <li class="else"><a href="contact.html">&nbsp;联系我们&nbsp;</a></li></ul>
+    </div>
+    <div id="banner">
+    	<div id="pic_left"><img src="images/banner_4.jpg"></div>
+        <div id="pic_right"><img src="images/support.png"></div>
+    </div>
+    <div id="main_float">
+    	<div class="bookmark">
+        	<ul><li tabId="tab1" class="activeTab"><div class="bm">构建呼叫中心要考虑的问题</div></li>
+            	<li tabId="tab2"><div class="bm">中国市场上对呼叫中心的误区</div></li></ul>
+        </div>
+        <div id="shadow_rotate"><img src="images/shadow_rotate.png"></div>
+        <div id="note">
+        	<div id="tab1" style="display: block">
+                <p class="subhead">稳定性</p>
+                <p id="para">稳定性是呼叫中心运行的一个最重要的指标。世界上没有绝对稳定的系统，更高的稳定性必要付出更高的代价，这个代价付出能否获得更高的回报？系统瘫痪，或者停电后来电，呼叫中心恢复运行的时间、自动化程度也是稳定性的一个重要方面。</p>
+                <p id="para">一般来讲，系统的主要是由核心交换的操作系统部分决定的，其次硬件和软件的设计的合理性与产品化的程度，以及各功能组件与硬件的配合，设计时一体化的考虑都对系统的稳定性有很大的影响。一般来讲，在呼叫中心行业的标准还不统一的情况下，多厂商产品的集成，肯定会降低系统的稳定性，同时系统的恢复也是很复杂的过程。</p>
+                <p id="para">除了通过了解厂商平台的技术架构来鉴别稳定性，对于用户，还有一种办法判断某个平台稳定性的实用的办法是通过各种渠道，了解该平台已经运行的系统的稳定性真实信息。</p>
+                <p class="subhead">扩容性</p>
+                <p id="para">企业应该首先考虑清楚，在呼叫中心运营的生命周期里，呼叫中心最大的座席可能是多少？这个厂商的平台能否方便、顺利地升级到这个规模。升级的成本和时间也要考虑。</p>
+                <p class="subhead">间接成本</p>
+                <p id="para">在考虑呼叫中心的构建成本时，除了考虑直接的购置成本，还要考虑间接成本，可能一个看似很便宜的呼叫中心平台，可能间接成本比直接成本要高得多。举一个极端一点的例子：有一个企业听某一知名的交换机厂家介绍说，买了他们的高档交换，可以轻松升级为呼叫中心。 结果他们就先买了一个交换机，等到他们想上呼叫中心时才知道，还要买很多的软件和硬件，还要买很多第三方的产品，一算下来增加的投入是当初买交换机的几倍。</p>
+                <p id="para">同样的情况，如果先买一个呼叫中心一体交换机，可能会比传统的程控交换机贵一些，但是功能强大得多。但是，在呼叫中心一体交换机上升级为一个完善的呼叫中心只需在原厂商买几个许可，安装一下软件就可以了。两次采购的总和比在传统交换机上升级还要便宜得多。</p>
+                <p id="para">话说回来，一般间接成本至少包括：</p>
+                <p id="para">（1）个性化定制和呼叫业务的二次开发的成本：对于很多企业采用一个高级呼叫中心平台，通过简单的软件的参数配置，就可以实现个性化的要求，呼叫中心无需进行二次开发，最近市场提出的"菜单式全装修"就是这样的概念。而对于很多较低级的呼叫中心平台，往往一个很基本的呼叫中心业务，如IVR，ACD，还要进行软件编程工作，要么就是购买第三方的可定制的产品。</p>
+                <p id="para">（2）实施的时间和成本：不同的平台安装和实施的复杂性有很大的差别，一体化平台的实施时间和成本一定是最低的。</p>
+                <p id="para">（3）系统维护和管理成本：这个成本往往和实施的成本联系在一起。一体化平台在维护和管理的复杂性、专业性和成本都是最低的。因为一体化的设计把很多复杂的接口和技术都已封装在一套软件和一个盒子里，而且系统监控软件可以侦测到呼叫中心系统每一个模块的状态。</p>
+                <p id="para">但是对于由多厂商产品，分离的子系统集成的呼叫中心，自然地，其实施、管理和维护的成本要高出不知多少倍。如果呼叫中心的基本软件不是产品化的，而是根据项目需求从头开发的，那么系统瘫痪时，可能只有请程序员到场，才有恢复的可能。除了间接成本的支出，一个呼叫中心的专业管理资源很少的企业级用户，即使能买得起一个高端呼叫中心，但是能否消化，或者说把呼叫中心的平台用起来也是个严重的问题。 多余的，用不起来的功能，对企业也是一个负担，增加企业的管理成本，甚至造成管理的混乱。</p>
+                <p class="subhead">语音IP化的程度</p>
+                <p id="para">前面已经说道，语音IP不是"越纯越好"，语音 IP化对企业的真正价值在于是否能够节省电话费，是否能够提高通话的效率。但是语音IP化毕竟是企业语音和数据融合的必然趋势。所以建议企业级用户在选择呼叫中心平台时，采用的平台即可以支持传统的话机，有可以支持IP话机，即可以在客户端"纯的模拟"，也可以"纯IP"，也可以混合使用。而且这个平台能够保证企业无论在构建呼叫中心的初期还是以后的不同阶段，都能根据企业的实际需要灵活选择和升级呼叫中心系统：</p>
+                <p id="para">（1）只开通电路交换功能，此时企业可以使用原来的布线系统、普通话机，甚至保留原有的交换机，但是可以向IP通信迁移。</p>
+                <p id="para">（2）在企业单点系统中只开通电路交换功能，但在总部和分支机构之间的通过VoIP实现系统组网，彻底节省企业内部长途话费，同时也能支持远程座席或移动办公。此时用户仍然可以沿用原来的布线系统和网络环境。</p>
+                <p id="para">（3）在企业单点系统同时开通电路交换功能和软交换功能，这样可以在关键岗位布署IP电话或IP软电话，并可进一步在此基础上布署更灵活的桌面通信、视频会议和IP呼叫中心等应用。</p>
+                <p id="para">（4）在企业单点系统全部使用软交换，所有用户终端都使用IP电话或IP软电话，从而在企业全局建立起纯IP通信系统。</p>
+                <p id="para">企业级用户需要的呼叫中心与电信级用户使用的呼叫中心是非常不同的。同时，企业也没有必要为了省钱就委屈自己采用基于板卡的呼叫中心平台。在CTI技术发展迅速的今天，企业级用户一定能够在一体化平台中找到即承担得起，又能完全满足长期需求的产品。</p>
+            </div>
+            <div id="tab2" style="display: none">
+                <p id="para">在中国，企业级呼叫中心的潜在用户由于受市场宣传力度强大的高端厂商的影响，在呼叫中心方案选择时有产生很多误区，结果在价格、和应用价值和投资回报方面越来越迷茫，或者选择了错误的方案，给企业带来很大的损失。比如，现在还有企业在选择方案时还存在"高、大、全"的误区：</p>
+				<p id="para">（1）有的人认为规模越大的呼叫中心越好。事实上，在保证稳定性情况下，系统可扩的规模越大，成本越高，并呈指数上升。比如我们碰到过一个企业，一期只上12个座席，企业再发展也不可能超过50个座席，但他们却希望系统的最大稳定规模能达到几百线。这就意味着他要多付出至少5倍以上的钱。</p>
+                <p id="para">（2）有的人认为功能越多，越复杂越好。实际上，很多高端呼叫中心的复杂功能，企业级用户当前用不上，以后也永远都用不上，安装上去也消化不了。但是这些多余的功能不但要使多付出几倍的购置支出，而且系统的安装、实施、使用和维护带来很多麻烦。换句话讲，买得起，也消化不了。</p>
+                <p id="para">（3）公司越大的、越知名越高，其呼叫中心的产品越好。对高端的，大型呼叫中心的用户，这个道理是对的。但是对于企业级用户，很难在大的IT公司中找到成熟的适用的产品。这是因为大公司往往不是新技术的最先采用者，而在传统交换机技术上开发的呼叫中心产品，成本很高，价格下不来。正象电脑发展的历史一样，只有采用新的、整合的或者集成技术，成本才能下来，才能普及，同时不牺牲功能。</p>
+                <p id="para">（4）语音IP越纯越好：笔者认为把一种产品说成纯IP呼叫中心或者IPCC是没有任何意义的。其实凡是语音交换与CTI服务器整合的呼叫中心平台，都可以在应用端实现全IP化，只是成本和音质的差别。企业级用户到底在客户端全部采用IP电话机，还是传统的模拟电话机，还是部分用户采用IP电话机，部分采用传统的模拟电话机或者数字电话机，取决于企业的具体情况：成本与回报、音质和功能。事实上，目前一些成熟的一体化平台即可以通过局域网接出纯IP话机，也可以接出传统的模拟话机，但是其功能已经大大超过数字电话机，达到纯IP话机的功能，但是成本仅是IP电话机的几十分之一，音质也比IP电话机好很多。 语音IP化对企业的现实意义在于是否能够节省电话费，是否能够提高通话的效率。分支机构和远程坐席采用IP语音传输，可以大大减低企业的通讯费用。至于用户的话机还是从实用和投资的角度出发，先采用普通话机，但是要保证系统以后需要的话可以换成IP话机，根据企业的需要，采用可以逐步实现IP化的平台，是明智的选择。</p>
+            </div>
+        </div>
+        <div id="shadow_short"><img src="images/shadow.png"></div>
+    </div>
+    <div id="footer">
+    	<div id="logo"><img src="images/logo.png"></div>
+        <div id="service" class="bold">
+        	<ul><li><a target=blank href="tencent://message/?uin=252700589&Site=qq&Menu=yes" style="text-decoration:none"><img id="qq" src="images/qq.png">&nbsp;&nbsp;技术顾问 曾先生</a></li>
+            	<li><a target=blank href="tencent://message/?uin=252700589&Site=qq&Menu=yes" style="text-decoration:none"><img id="qq" src="images/qq.png">&nbsp;&nbsp;商务咨询 钟先生</a></li>
+                <li><a target=blank href="tencent://message/?uin=252700589&Site=qq&Menu=yes" style="text-decoration:none"><img id="qq" src="images/qq.png">&nbsp;&nbsp;商务咨询 刘先生</a></li></ul>
+        </div>
+        <div id="end">
+        	<div id="line"></div>
+        	<div id="add" class="bold">地址：深圳市龙岗区南湾街道布沙路78号樟树布综合大楼七楼701</div>
+            <div id="copyright" class="bold">©2011-2014 GECHANG ® 格畅</div>
+        </div>
+    </div>
+    <a title="返回顶部" class="backToTop" style="left: 1200px; top: 513px; display: none; position: fixed;" href="javascript:;">返回顶部</a>
+</body>
+</html>
